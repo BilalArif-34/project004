@@ -1,5 +1,5 @@
 
-import Reacht from 'react';
+import React from 'react';
 import './Stylesheet.css'
 function Greeting(props) {
   return <div>
