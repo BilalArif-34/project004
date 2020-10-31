@@ -8,7 +8,7 @@ import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+   
     <Greeting name="Bilal" />
     <Parent/>
   </React.StrictMode>,
