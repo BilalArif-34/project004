@@ -2,12 +2,15 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
+import Greeting from './Greeting'
+import Parent from './Parent'
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
     <App />
     <Greeting name="Bilal" />
+    <Parent/>
   </React.StrictMode>,
   document.getElementById('root')
 );
